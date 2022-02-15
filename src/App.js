@@ -16,11 +16,11 @@ function App() {
           <Navigation />
         </div>
         <Routes>
-          <Route path="" element={<Home/>} />
-          <Route path="/About" element={<About/>} />
-          <Route path="/Register" element={<Register/>} />
-          <Route path="/Login" element={<Login/>} />
-          <Route path="/Contact" element={<Contact/>} />
+          <Route path="react-pages/" element={<Home/>} />
+          <Route path="react-pages/About" element={<About/>} />
+          <Route path="react-pages/Register" element={<Register/>} />
+          <Route path="react-pages/Login" element={<Login/>} />
+          <Route path="react-pages/Contact" element={<Contact/>} />
         </Routes>
         <div className="footer">
            <Footer />
