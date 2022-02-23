@@ -22,8 +22,18 @@ function Navigation() {
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/contact">
+                    <NavLink className="nav-link" to="/contact">
                     Contact
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/Login">
+                    Login
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                    <NavLink className="nav-link" to="/Register">
+                    Register
                   </NavLink>
                 </li>
               </ul>
