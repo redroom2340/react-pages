@@ -1,0 +1,17 @@
+.das-min-container{
+    .news-blog-main{
+        .news-blog-main-container{
+            div{
+                display: flex;
+                flex-wrap: wrap;
+                gap: 25px;
+                div{
+                    width: 13.67512rem;
+                    height: 13rem;
+                    // margin: 10px 0;
+                    background-color: #6c757d;
+                }
+            }
+        }
+    }
+}

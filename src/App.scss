@@ -1,0 +1,23 @@
+.main-page-container {
+  .sidebar-main {
+    position: fixed;
+    width: 8.333rem;
+    z-index: 1111;
+  }
+  .main-container {
+    width: calc(100% - 8.333rem);
+    margin-left: 8.333rem;
+    float: right;
+    height: 100vh;
+    padding: 1.333rem 3rem 1.333rem 3rem;
+    display: block;
+    position: fixed;
+    z-index: 999;
+    overflow-y:auto;
+    background-color: #eff1f4 !important;
+    .Header-main {
+      // position: fixed;
+      width: 100%;
+    }
+  }
+}
